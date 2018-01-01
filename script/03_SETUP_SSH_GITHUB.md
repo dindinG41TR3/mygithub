@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+```
 ls -al ~/.ssh
 ssh-keygen -t rsa -b 4096 -C "dindinhernawan@yahoo.co.id"
 eval "$(ssh-agent -s)"
@@ -10,3 +10,4 @@ Host github.com
   Port 443
 EOF
 ssh -T git@github.com
+```
