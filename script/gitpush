@@ -26,3 +26,4 @@ git commit -am "Update $version"
 echo " Git Push Local to Github... "
 git push
 echo " Berhasil... "
+
