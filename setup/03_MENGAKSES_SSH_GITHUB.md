@@ -1,6 +1,6 @@
 ```
 ls -al ~/.ssh
-ssh-keygen -t rsa -b 4096 -C "dindinhernawan@yahoo.co.id"
+ssh-keygen -t rsa -b 4096 -C "dindin_hernawan@yahoo.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 cd $HOME/.ssh
