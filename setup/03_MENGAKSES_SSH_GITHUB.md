@@ -1,8 +1,8 @@
 ```
 ls -al ~/.ssh
-ssh-keygen -t rsa -b 4096 -C "dindin_hernawan@yahoo.com"
+ssh-keygen -t ecdsa -b 521 -C "dindin_hernawan@yahoo.com"
 eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_rsa
+ssh-add ~/.ssh/id_ecdsa
 cd $HOME/.ssh
 cat > config << "EOF"
 Host github.com
